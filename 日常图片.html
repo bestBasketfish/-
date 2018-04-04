@@ -1,0 +1,27 @@
+<html>
+<title>日常图片</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+<META HTTP-EQUIV="Refresh" content="10">
+<head>
+
+<script>
+  var d = new Date();
+  var sum=d.getMonth()+1;
+  var time=d.getFullYear()+"-"+sum+"-"+d.getDate()+".jpg";
+  function changeSrc() 
+{ 
+  document.getElementById("s").src=time; 
+  } 
+  window.onload=changeSrc;
+  
+</script>
+
+</head>
+<body>
+
+<img id="s" src="2017-4-4"  width="1080px" height="1920px">
+
+
+
+</body>
+</html>
